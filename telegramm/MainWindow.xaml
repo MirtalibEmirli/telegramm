@@ -1,0 +1,200 @@
+﻿<Window x:Class="telegramm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:telegramm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-1">
+        <!--
+        <Image Source="Images/hmbicon.jpg" Height="22" Width="29" Margin="17,13,754,399"  />
+        
+        -->
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <!--Sol-->
+        <DockPanel Grid.Column="0">
+            <Grid DockPanel.Dock="Top" Height="40" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="Images/hmbicon.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox  Height="40" Width="235" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightGray" Grid.Column="1" />
+            </Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="Red" />
+                            <Label Content="ES" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Eva Summer                        11:00"/>
+                            <Label Content="Remind me of a Chinease chee..." VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="Coral" />
+                            <Label Content="AS" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Alexandra Smith                 10:00"/>
+                            <Label Content="This is amazing!" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="GreenYellow" />
+                            <Label Content="MK" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="MAke Apple                       9:00"/>
+                            <Label Content="hahaha" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="Cyan" />
+                            <Label Content="EG" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Evening Group                   8:00"/>
+                            <Label Content="Eva: Photo" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="Yellow" />
+                            <Label Content="OP" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Old Pilates                         7:00"/>
+                            <Label Content="Max: a-a-a" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+
+                    </Grid>
+
+
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="Blue" />
+                            <Label Content="MB" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Max Bright                        6:00"/>
+                            <Label Content="How about some coffe?" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+
+                    </Grid>
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="BlueViolet" />
+                            <Label Content="NP" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Natalia Piker                     6:00"/>
+                            <Label Content="OK,great?" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+
+                    </Grid>
+
+
+                    <Grid Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Margin="5">
+                            <Ellipse Fill="DarkSeaGreen" />
+                            <Label Content="DJ" FontWeight="Bold" Foreground="White"    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <StackPanel  Grid.Column="1">
+                            <Label FontWeight="Bold"  Content="Davy Jones                       6:00"/>
+                            <Label Content="Keynote.pdf" VerticalAlignment="Bottom" Margin="4,0,-4,13"/>
+
+                        </StackPanel>
+
+                    </Grid>
+
+
+
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+
+
+        <!--Sag-->
+
+        <Grid Grid.Column="1">
+            <Grid>
+                <DockPanel>
+                    
+            <Label Content="online"  FontWeight="Bold" Margin="5 20 5 5 " Height="22" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Eva Summer " DockPanel.Dock="Top" FontStyle="Normal" Margin="-60,0,5,4" />
+            <Image DockPanel.Dock="Left" Height="20" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"  Source="Images/buttonsearch.png" Margin="390 -425 -120  4" RenderTransformOrigin="0.593,0.421"/>
+            <Label Content="Write a message" Margin="-355  340 5 5 " Background="LightGray" DockPanel.Dock="Bottom" Height="32" />
+                </DockPanel>
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>
